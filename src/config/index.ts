@@ -1,23 +1,21 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Ammar Farooq — Full Stack Developer",
+  author: "Ammar Farooq",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Full Stack Developer based in Lahore, Pakistan. I specialize in building modern web applications using MERN stack, Next.js, and TypeScript.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/801.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://linkedin.com/in/ammar-farooq207/" },
+    { text: "Github", href: "https://github.com/mr-ammar-1" },
+    { text: "Email", href: "mailto:ammarfarooq207@gmail.com" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,73 +23,70 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Ammar Farooq",
+    specialty: "Full Stack Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Aspiring Full Stack developer based in Lahore, Pakistan with a strong passion for coding and building modern web applications. Proficient in JavaScript, TypeScript, and frameworks like Node.js, React.js, and Next.js.",
+    email: "ammarfarooq207@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "ML Bench (Pvt) Ltd",
+      position: "MERN Stack Developer",
+      startDate: "June 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Developed full-stack web applications using Next.js, Tailwind CSS, and MongoDB, ensuring modern and scalable architecture that delivers optimal performance across all devices.",
+        "Integrated third-party services including Stripe API for secure payment processing and Cloudinary for efficient media upload and management, enhancing application functionality and user experience.",
+        "Built interactive UI components using Canvas API and implemented responsive design patterns, resulting in seamless user experiences across desktop, tablet, and mobile devices.",
+        "Deployed scalable applications on Vercel with automated CI/CD pipelines and maintained clean version control using Git and GitHub, ensuring smooth collaboration and code quality.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Magnatec Systems (Pvt) Ltd",
+      position: "Junior Software Developer",
+      startDate: "July 2022",
+      endDate: "September 2022",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Assisted in developing enterprise-level web applications using .NET Core framework, contributing to robust backend solutions for business-critical operations.",
+        "Collaborated with cross-functional teams to implement server-side logic and RESTful APIs, ensuring efficient data communication between client and server applications.",
+        "Worked with SQL Server database schemas to design and optimize data storage solutions, improving query performance and data retrieval efficiency.",
+        "Participated in code reviews and comprehensive testing cycles to ensure high standards of code quality, performance optimization, and long-term maintainability.",
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Trending Topics Identification from Urdu Videos",
+      summary: "A system that extracts and analyzes trending topics from Urdu YouTube videos using speech-to-text models and fine-tuned LLaMA 3.1 8B Instruct model.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/mr-ammar-1",
       image: "/spotifu.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "E-Commerce Website",
+      summary: "A full-featured e-commerce platform with product listing, cart management, secure checkout, and payment integration built using MERN stack.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/mr-ammar-1",
       image: "/shopify-clon.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "Distributed Routing System",
+      summary: "A distributed system for logistics route optimization using real-time data from Google Maps API for efficient delivery management.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/mr-ammar-1",
       image: "/clone-ig.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I'm Ammar Farooq, a passionate Full Stack Developer based in Lahore, Pakistan. I recently graduated from the University of Engineering and Technology, Lahore with a BS in Computer Science (CGPA: 3.29/4.0).
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I specialize in building modern, scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Next.js. My experience spans both frontend and backend development, with a strong focus on creating seamless user experiences and efficient server-side solutions.
+
+      Throughout my journey, I've worked with various technologies including TypeScript, Tailwind CSS, and integrated services like Stripe and Cloudinary. I'm passionate about clean code, performance optimization, and staying updated with the latest web development trends. My projects range from AI-powered systems to full-featured e-commerce platforms, all built with attention to detail and user-centric design.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/801.jpg",
   },
 };
 
